@@ -1,0 +1,4 @@
+variables:
+- team: dbossio-cloudbees-test
+- admin-user: dbossio-admin
+- manager-user: dbossio
