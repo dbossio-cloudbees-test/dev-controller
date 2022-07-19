@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "dbossio-cloudbees-test-dev-controller"
 description: "CloudBees CI configuration bundle for the dbossio-cloudbees-test dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/dbossio-cloudbees-test/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
